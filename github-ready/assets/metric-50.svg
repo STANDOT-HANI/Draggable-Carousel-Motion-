@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="270" height="150" viewBox="0 0 270 150" role="img" aria-label="50">
+  <defs>
+    <filter id="roughen"><feTurbulence type="fractalNoise" baseFrequency="0.052" numOctaves="2" seed="50" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="2.8"/></filter>
+  </defs>
+  <text x="8" y="116" filter="url(#roughen)" fill="#00a651" font-family="Impact, Arial Black, sans-serif" font-size="142" font-style="italic" font-weight="900" letter-spacing="-7" transform="skewX(-8)">50</text>
+</svg>

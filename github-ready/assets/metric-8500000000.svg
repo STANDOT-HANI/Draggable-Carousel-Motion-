@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="130" viewBox="0 0 520 130" role="img" aria-label="8,500,000,000">
+  <defs>
+    <filter id="roughen"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="8500" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="2.4"/></filter>
+  </defs>
+  <text x="2" y="96" filter="url(#roughen)" fill="#00a651" font-family="Impact, Arial Black, sans-serif" font-size="78" font-style="italic" font-weight="900" letter-spacing="-5" transform="skewX(-8)">8,500,000,000</text>
+</svg>

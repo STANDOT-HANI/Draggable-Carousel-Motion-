@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="310" height="160" viewBox="0 0 310 160" role="img" aria-label="129">
+  <defs>
+    <filter id="roughen">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="12" result="noise" />
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2.8" />
+    </filter>
+  </defs>
+  <g filter="url(#roughen)" fill="#00a651" transform="skewX(-10)">
+    <text
+      x="8"
+      y="122"
+      font-family="Impact, Arial Black, sans-serif"
+      font-size="148"
+      font-style="italic"
+      font-weight="900"
+      letter-spacing="-12"
+    >129</text>
+    <path d="M18 36 C39 15, 54 5, 67 0 L52 104 C46 120, 36 139, 20 152 C27 111, 32 69, 18 36 Z" opacity="0.86" />
+    <path d="M108 119 C145 105, 181 102, 224 106" fill="none" stroke="#00a651" stroke-width="6" stroke-linecap="round" opacity="0.78" />
+  </g>
+</svg>
