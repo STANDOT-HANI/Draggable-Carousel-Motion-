@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Carousel Animation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="stage" aria-label="색상 패널 캐러셀 애니메이션">
+      <div class="panel-track" id="panelTrack"></div>
+      <section class="history-panel" aria-label="왕들도 마시던 소화제 설명">
+        <img
+          src="assets/year-1897.png"
+          alt="1897"
+          class="history-year"
+          id="historyYear"
+        />
+        <div class="history-copy">
+          <h2 id="historyTitle">왕들도 마시던 소화제</h2>
+          <p id="historyBody">
+            활명수는 조선왕조 고종임금께서 대한제국 황제로 즉위하시던
+            1897년 당시 궁중 선전관으로 있던 민병호 선생께서 궁중에서만
+            복용되던 생약의 비방을 일반 국민에게까지 널리 보급하고자
+            서양의학을 접목하여 개발한 우리나라 최초의 신약이며, 양약입니다.
+          </p>
+        </div>
+      </section>
+      <div
+        class="scrubber"
+        id="scrubber"
+        role="slider"
+        aria-label="중앙 카드 선택"
+        aria-valuemin="0"
+        aria-valuemax="8"
+        aria-valuenow="4"
+        tabindex="0"
+      >
+        <div class="scrubber-rail" id="scrubberRail">
+          <div class="scrubber-fill" id="scrubberFill"></div>
+          <div class="scrubber-thumb" id="scrubberThumb"></div>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
